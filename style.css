@@ -22,14 +22,14 @@ a{
     color: inherit;
 }
 
-.header {
+.header, .sign-up-container {
     padding: 0 15%;
 }
 .beaches, .quote  {
     padding: 0 20%;
 }
 
-.header {
+.header, .footer {
     background-color: #1f2937;
 }
 
@@ -144,4 +144,34 @@ a{
     font-style: normal;
     font-size: 18px;
     align-self: flex-end;
+}
+
+.sign-up-container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.sign-up-card{
+    width: 100%;
+    padding: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    font-size: 16px;
+}
+
+.sign-up-card-title {
+    font-size: 24px;
+}
+
+.btn-secondary{
+    border: 1px solid #fff;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 16px;
 }
